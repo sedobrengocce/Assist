@@ -11,7 +11,9 @@
     "e2e": "node frontend/test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue frontend/src frontend/test/unit frontend/test/e2e/specs",
-    "build": "node frontend/build/build.js"
+    "build": "node frontend/build/build.js",
+    "prepush": "npm run test",
+    "travis": "npm run unit"
   },
   "license": "ISC",
   "dependencies": {
@@ -110,11 +112,5 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ],
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "npm run test"
-    }
-  }
+  ]
 }
