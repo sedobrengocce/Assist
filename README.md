@@ -1,9 +1,10 @@
-# Assist
-
-[![Build Status](https://travis-ci.org/sedobrengocce/Assist.svg?branch=master)](https://travis-ci.org/sedobrengocce/Assist)
-[![Coverage Status](https://coveralls.io/repos/github/sedobrengocce/Assist/badge.svg?branch=master)](https://coveralls.io/github/sedobrengocce/Assist?branch=master)
-[![Dependency Status](https://beta.gemnasium.com/badges/github.com/sedobrengocce/Assist.svg)](https://beta.gemnasium.com/projects/github.com/sedobrengocce/Assist)
-[![Code Climate](https://codeclimate.com/github/sedobrengocce/Assist.svg)](https://codeclimate.com/github/sedobrengocce/Assist)
+<p style="text-align: center; font-weight: bold; font-size: 55px;">Assist</p>
+<p style="text-align: center;">
+<a href="https://travis-ci.org/sedobrengocce/Assist"><img src="https://img.shields.io/travis/google/boardgame.io/master.svg" alt="Travis" /></a>
+<a href="https://coveralls.io/github/sedobrengocce/Assist?branch=master"><img src="https://img.shields.io/coveralls/sedobrengocce/Assist.svg" alt="Coveralls" /></a>
+<a href="https://beta.gemnasium.com/projects/github.com/sedobrengocce/Assist"><img src="https://beta.gemnasium.com/badges/github.com/sedobrengocce/Assist.svg" alt="Gemnasium" /></a>
+<a href="https://codeclimate.com/github/sedobrengocce/Assist"><img src="https://codeclimate.com/github/sedobrengocce/Assist.svg" alt="CodeClimate" /></a>
+</p>
 
 ## Description
 
