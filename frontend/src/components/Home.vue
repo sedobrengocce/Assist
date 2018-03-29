@@ -28,7 +28,7 @@ export default {
     return (
       <div class="HomeContainer">
         <div class="Card">
-          <div class="CardTitle">Welcome to Assit!</div>
+          <div class="CardTitle">Welcome to Assist!</div>
           <div class="CardBody">
             <p> This tool helps <a href="https://www.buzzerbeater.com" target="_blank">BuzzerBeater</a>'s users
             to prepare their games better by giving them statistics on their next opponents.
