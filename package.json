@@ -13,6 +13,7 @@
     "lint": "eslint --ext .js,.vue frontend/src frontend/test/unit frontend/test/e2e/specs",
     "build": "node frontend/build/build.js",
     "prepush": "npm run test",
+    "report-coverage": "codecov -t 6ce34ba8-3d25-4491-abd5-cae968c3ec7c",
     "travis": "npm run unit"
   },
   "license": "ISC",
@@ -51,6 +52,7 @@
     "chai": "^4.1.2",
     "chalk": "^2.0.1",
     "chromedriver": "^2.27.2",
+    "codecov": "^3.0.0",
     "copy-webpack-plugin": "^4.0.1",
     "cross-env": "^5.0.1",
     "cross-spawn": "^5.0.1",
