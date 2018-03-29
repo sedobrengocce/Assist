@@ -12,12 +12,14 @@
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue frontend/src frontend/test/unit frontend/test/e2e/specs",
     "build": "node frontend/build/build.js",
+    "precommit": "npm run lint",
     "prepush": "npm run test",
     "report-coverage": "codecov -t 6ce34ba8-3d25-4491-abd5-cae968c3ec7c",
     "travis": "npm run unit"
   },
   "license": "ISC",
   "dependencies": {
+    "avoriaz": "^6.3.0",
     "body-parser": "~1.18.2",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",

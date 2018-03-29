@@ -42,9 +42,9 @@ export default {
             <div class="ModalBody">
               <form>
                 <h2>Log in</h2>
-                <label for="username">User Name </label>
+                <label for="username">User Name</label>
                 <input type="text" name="username" placehoder="Username" autocomplete="username" v-model={this.user} />
-                <label for="bbcode">BB Code </label>
+                <label for="bbcode">BB Code</label>
                 <input type="password" name="bbcode" placehoder="Password" autocomplete="current-password" v-model={this.pass} />
               </form>
             </div>
@@ -55,10 +55,10 @@ export default {
                   code: this.pass,
                 });
                 this.close();
-              }}> Log In </div>
+              }}>Log In</div>
               <div class="Button" onClick={ () => {
                 this.close();
-              }}> Cancel </div>
+              }}>Cancel</div>
             </div>
           </div>
         </div>
