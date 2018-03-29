@@ -1,5 +1,7 @@
-<p style="text-align: center; font-weight: bold; font-size: 55px;">Assist</p>
-<p style="text-align: center;">
+<p align="center">
+<img src="https://raw.githubusercontent.com/sedobrengocce/Assist/master/Assist.png"/>
+</p>
+<p align="center">
 <a href="https://travis-ci.org/sedobrengocce/Assist"><img src="https://img.shields.io/travis/google/boardgame.io/master.svg" alt="Travis" /></a>
 <a href="https://codecov.io/gh/sedobrengocce/Assist"><img src="https://codecov.io/gh/sedobrengocce/Assist/branch/master/graph/badge.svg" /></a>
 <a href="https://beta.gemnasium.com/projects/github.com/sedobrengocce/Assist"><img src="https://beta.gemnasium.com/badges/github.com/sedobrengocce/Assist.svg" alt="Gemnasium" /></a>
