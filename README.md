@@ -1,6 +1,25 @@
 # Assist
 
-> Assist 
+[![Build Status](https://travis-ci.org/sedobrengocce/Assist.svg?branch=master)](https://travis-ci.org/sedobrengocce/Assist)
+[![Coverage Status](https://coveralls.io/repos/github/sedobrengocce/Assist/badge.svg?branch=master)](https://coveralls.io/github/sedobrengocce/Assist?branch=master)
+[![Dependency Status](https://beta.gemnasium.com/badges/github.com/sedobrengocce/Assist.svg)](https://beta.gemnasium.com/projects/github.com/sedobrengocce/Assist)
+[![Code Climate](https://codeclimate.com/github/sedobrengocce/Assist.svg)](https://codeclimate.com/github/sedobrengocce/Assist)
+
+## Description
+
+This tool helps <a href="https://www.buzzerbeater.com" target="_blank">BuzzerBeater</a>'s users to prepare their games better by giving them statistics on their next opponents. 
+
+### Feature
+* **Statistic on own Team** - *WIP* - Shape trend, DMI trend, Game Ratings, Injuries and Training.
+* **Statistic on Opponents** - *TODO* - Shape trend, DMI trend, Game Ratings, Injuries, Most used Tactics and Lineup.
+* **Statistic on League and Cup** - *TODO* - Attack, Defense and wage statistics.
+* **Salary Calculating tool** - *TODO* - A tool to calculate player Salary.
+* **Training Simulator** - *TODO* - A tool to simulate training to have a better schedule.
+* **Line up Aids** - *TODO* - Best lineup for tactics.
+* **Statistics on Player** - *TODO* - Attack, Defense, Fouls, Free Trow.
+* **Match Analyzer** - *TODO* - Understand Game Engine
+* **NT Tools** - *TODO* - Find player, save player, track player.
+* **Arena size and prices Aids** - *TODO* - Best size and prices for your Arena.
 
 ## Build Setup
 
@@ -26,37 +45,11 @@ npm run e2e
 # run all tests
 npm test
 ```
-# Buzzerbeater
-
-[![Build Status](https://travis-ci.org/lawitschka/buzzerbeater.png?branch=master)](https://travis-ci.org/lawitschka/buzzerbeater)
-[![Coverage Status](https://coveralls.io/repos/lawitschka/buzzerbeater/badge.png?branch=master)](https://coveralls.io/r/lawitschka/buzzerbeater?branch=master)
-[![Dependency Status](https://gemnasium.com/lawitschka/buzzerbeater.png)](https://gemnasium.com/lawitschka/buzzerbeater)
-[![Code Climate](https://codeclimate.com/github/lawitschka/buzzerbeater.png)](https://codeclimate.com/github/lawitschka/buzzerbeater)
-
-API adapter for the world's largest basketball manager game Buzzerbeater.
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'buzzerbeater'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install buzzerbeater
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
 1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
+2. Create your feature branch (`git checkout -b feature/my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
