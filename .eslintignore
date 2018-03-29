@@ -1,0 +1,6 @@
+frontend/build/
+frontend/config/
+/dist/
+/*.js
+frontend/test/unit/coverage/
+.eslintrc
