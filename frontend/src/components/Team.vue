@@ -22,7 +22,8 @@ export default {
       this.$router.push('/');
     }
   },
-  render() {
+  // eslint-disable-next-line
+  render(h) {
     return (
       <div class="PageContainer">
         <h1> Team Name </h1>

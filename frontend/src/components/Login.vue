@@ -24,7 +24,8 @@ export default {
       this.openCloseLogin(false);
     },
   },
-  render() {
+  // eslint-disable-next-line
+  render(h) {
     return (
       <div>
         <div class={{ Backdrop: true, in: this.loginModal }} onClick={ () => {

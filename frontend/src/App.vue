@@ -1,13 +1,15 @@
 
 <script>
 /* eslint-disable no-unused-vars */
+
 import TitleBar from '@/components/TitleBar';
 import Login from '@/components/Login';
 /* eslint-enable no-unused-vars */
 
 export default {
   name: 'MainApp',
-  render() {
+  // eslint-disable-next-line
+  render(h) {
     return (
       <div class="MainContainer">
         <Login />

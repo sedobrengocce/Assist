@@ -33,7 +33,9 @@
 npm-debug.log
 testem.log
 /typings
-
+/frontend/test/unit/coverage/*
+/frontend/test/e2e/reports/*
+selenium-debug.log
 # e2e
 /e2e/*.js
 /e2e/*.map

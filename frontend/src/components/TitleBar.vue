@@ -28,7 +28,8 @@ export default {
   methods: {
     ...mapMutations(['logInOut', 'openCloseLogin']),
   },
-  render() {
+  // eslint-disable-next-line
+  render(h) {
     const logInButton = (
       <div class="SignInButton" onClick={ () => {
         this.openCloseLogin(true);

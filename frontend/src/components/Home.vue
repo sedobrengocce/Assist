@@ -23,7 +23,8 @@ export default {
       }
     },
   },
-  render() {
+  // eslint-disable-next-line
+  render(h) {
     return (
       <div class="HomeContainer">
         <div class="Card">
