@@ -38,7 +38,7 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 
-# build for prouction with minification and start express on localhost:8080
+# build for production with minification and start express on localhost:8080
 npm start
 ```
 
