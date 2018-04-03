@@ -8,6 +8,11 @@ install:
   - npm install
 notifications:
   email: false
+addons:
+  browserstack:
+  username: "giuseppetufo1"
+  access_key:
+    secure: "L/vusC70OG3wjFKUfMJ/EQe4uoQsrWXpaKBCY7QKjS6MsnqqskB5OiFBHVy3OiiZfkj/dCqtmNvTrxILKRGDzuTTmjMiAj8i4XDwXYaNtTOaByJO3ycbpDVjoX+jhGKxZLzNtEmVZmHU+vj0bwvNQNEnDDFRmytCMIu9dnIsX4AdSfQxXwsJFvqWNnXLPQf/+lnCRBTBgJ08/nN9LW+hx6BgMdjU+JcEI5+FtNIrW1n0RbTV483Stb05UhFCwws5BwjMl6qn7JeAYWBgFsvSxIPxlA/nFd0puos4R2s2euaZG4C0jN9ctUYBEZAmwUeNBD5Tny//eaRTiB84kRlhbXEefQuS7sOCdkOoHsAeqye4P5/F5V5Kz5NYifVg/TV1euyhEK99yoRzB6v4/FBqasS5biTxGzNa8dv4b18G1gh+9gfIZNoCz4Ap4LWtcnZo1QbIsqLGqifqFKnWMyJXLuqvlhnkP1dg2nbQJYJiYorw8M1vW0D3sD+y/v2Qt5U0DtBiXdVzXZWat1LSIQBdks+IfbdRH6YRqZ/Kj9YFjHILzrmGDynho4RuoFWkmIFfzpMX5hA0zlno5jy1jxzQIdJBe7XRl+a8TGj1iOiipTyQ/FJMa3USvIAL/Y7guUA8USeEzVQipAHeQN1utzlAPYFw0jaPziaXW6Bq5fGviUk="
 script:
   - npm run travis
   - codecov
