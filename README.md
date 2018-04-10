@@ -2,7 +2,7 @@
 <img src="https://raw.githubusercontent.com/sedobrengocce/Assist/master/Assist.png"/>
 </p>
 <p align="center">
-<a href="https://travis-ci.org/sedobrengocce/Assist"><img src="https://img.shields.io/travis/google/boardgame.io/master.svg" alt="Travis" /></a>
+<a href="https://travis-ci.org/sedobrengocce/Assist"><img src="https://travis-ci.org/sedobrengocce/Assist.svg?branch=master" alt="Travis" /></a>
 <a href="https://codecov.io/gh/sedobrengocce/Assist"><img src="https://codecov.io/gh/sedobrengocce/Assist/branch/master/graph/badge.svg" alt "CodeCov"/></a>
 <a href="https://codeclimate.com/github/sedobrengocce/Assist"><img src="https://codeclimate.com/github/sedobrengocce/Assist.svg" alt="CodeClimate" /></a>
 </p>
