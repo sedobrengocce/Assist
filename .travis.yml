@@ -11,7 +11,7 @@ notifications:
 addons:
   browserstack: 
     username: giuseppetufo1
-    access_key: uyeBrmoT4yiC6WZqtWE6
+    access_key: 
       secure: e8ua1qGqd2U3juy+bC5/DTSECbJxk5L781lAmPMCZdQn2nEVLaE6bxt45ji2TjLO2Cwd8jyq1rIs4Wp6Y7xeyZVIBl5nAMg1YswpxQ5pqQRNSn7fSvds44sYIAEfkZ6hlD/d39+BulZxFlbLYZ8r1UFXkoHeCpXujBdUsfddhezRhN83hfW/vK3UmYm+BCgh62KUEwdW7OEtwOFzjm88Dc54Mgs3IlKvihry+ppPjqnVfdDtOTfp/q4U4dapV+nVjVUEYQavQMG+LO6h4/4RsRazJIp6EvS+NBkgEbuo+iRNJT0DlxhC+26PRJALq8KMYye5krTPtRGJKBLW5TDpohICRGILmA2/TJGjNpt58RhiK66nLnmLvp9RW6LasTGqsrzeg2f0/VKPnqW9r4JqHW4KrG4Zw6mqt7VXe34wsvuMl4OlxSRojly7ssyoryRkPfyPQyXoFxnxElK2JADlIkP2L6bH8/eLN4fR80n8qxf2rsTi0h45C6lR6jeXb3W3Iqws+fGE5gkBFVxlfNJsVFwgNloRWB/rGRigNrjpkvAiaVlR9bE4fT1Mlxh8Z5InVBkcM3VVwthsCT95apbff7Uyi5Y62zSTYLIbXXQhbXRgIXSq8zkT5W9bJfAX4mFLmzz6Fy+/Wc0X05XhQWzSX43RjhBOu/AMwwJxwwEHixU=
 script:
 - npm run travis
