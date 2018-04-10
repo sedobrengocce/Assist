@@ -3,7 +3,6 @@
 /**
  * Module dependencies.
  */
-
 const app = require('../app');
 const debug = require('debug')('Assist2:server');
 const http = require('http');

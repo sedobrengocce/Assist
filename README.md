@@ -70,12 +70,28 @@ merged into the `master` branch in this repo.
 
 The following commands must pass for a Pull Request to be considered:
 
-```
-# run all tests
+``` bash
+# run all unit tests
 $ npm test
 
 # code lint
 $ npm run lint
+```
+
+#### E2E test
+
+To use e2e test you must create `credential.env` file:
+``` JSON
+{
+    "username": "yourusername",
+    "bbcode": "yourbbcode"
+}
+```
+and put it inside `frontend/test/e2e/`
+then you have to run
+``` bash
+npm run build
+npm run e2e
 ```
 
 ## Changelog

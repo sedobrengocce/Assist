@@ -39,6 +39,7 @@ selenium-debug.log
 # e2e
 /e2e/*.js
 /e2e/*.map
+/frontend/test/e2e/*.env
 
 # System Files
 .DS_Store
