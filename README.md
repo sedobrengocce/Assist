@@ -71,7 +71,7 @@ merged into the `master` branch in this repo.
 The following commands must pass for a Pull Request to be considered:
 
 ``` bash
-# run all unit tests
+# run all tests
 $ npm test
 
 # code lint
