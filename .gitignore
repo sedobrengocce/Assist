@@ -29,6 +29,8 @@
 /.sass-cache
 /connect.lock
 /coverage
+/src/test/unit/coverage
+/src/test/unit/coverage/*
 /libpeerconnection.log
 npm-debug.log
 testem.log
