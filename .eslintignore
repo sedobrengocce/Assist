@@ -1,6 +1,9 @@
 frontend/build/
 frontend/config/
+src/build/
+src/config/
 /dist/
 /*.js
 frontend/test/unit/coverage/
+src/test/unit/coverage/
 .eslintrc
