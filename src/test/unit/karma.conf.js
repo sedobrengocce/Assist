@@ -23,7 +23,7 @@ module.exports = function karmaConfig(config) {
       noInfo: true,
     },
     coverageReporter: {
-      dir: './coverage',
+      dir: '../../../coverage',
       reporters: [
         { type: 'lcov', subdir: '.' },
         { type: 'json', subdir: '.' },
