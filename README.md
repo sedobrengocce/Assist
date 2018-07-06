@@ -78,22 +78,6 @@ $ npm test
 $ npm run lint
 ```
 
-#### E2E test
-
-To use e2e test you must create `credential.env` file:
-``` JSON
-{
-    "username": "yourusername",
-    "bbcode": "yourbbcode"
-}
-```
-and put it inside `frontend/test/e2e/`
-then you have to run
-``` bash
-npm run build
-npm run e2e
-```
-
 ## Changelog
 
 See [changelog](docs/CHANGELOG.md).
