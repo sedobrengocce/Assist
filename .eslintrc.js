@@ -19,7 +19,7 @@ module.exports = {
   settings: {
     'import/resolver': {
       webpack: {
-        config: 'frontend/build/webpack.base.conf.js'
+        config: 'src/build/webpack.base.conf.js'
       }
     }
   },
@@ -42,7 +42,7 @@ module.exports = {
     }],
     // allow optionalDependencies
     'import/no-extraneous-dependencies': ['error', {
-      optionalDependencies: ['frontend/test/unit/index.js']
+      optionalDependencies: ['src/test/unit/index.js']
     }],
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
