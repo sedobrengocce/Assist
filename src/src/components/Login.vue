@@ -1,6 +1,6 @@
 <script>
 /* eslint-disable no-unused-vars */
-import { mapGetters, mapMutations } from 'vuex';
+import { mapGetters, mapMutations, mapActions } from 'vuex';
 /* eslint-enable no-unused-vars */
 
 export default {
@@ -17,7 +17,10 @@ export default {
     }),
   },
   methods: {
-    ...mapMutations(['logInOut', 'openCloseLogin']),
+    ...mapMutations(['openCloseLogin']),
+    ...mapActions({
+      login: 'login'
+    }),
     close() {
       this.user = '';
       this.pass = '';
@@ -50,7 +53,7 @@ export default {
             </div>
             <div class="ModalFooter">
               <div class="Button" onClick={ () => {
-                this.logInOut({
+                this.login({
                   username: this.user,
                   code: this.pass,
                 });

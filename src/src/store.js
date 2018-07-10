@@ -24,26 +24,29 @@ export default new Vuex.Store({
       return state.team;
     },
   },
-  mutations: {
-    logInOut(state, data) {
+  actions: {
+    login({ commit, state }, data) {
       if (state.loggedIn) {
         socket.on('logout', () => {
-          state.loggedIn = false;
-          state.team = null;
+          commit('login', false);
         });
         socket.emit('logout');
       } else {
         socket.on('login', (res) => {
           if (res.status === 'Success') {
-            state.loggedIn = true;
-            state.team = res.team;
+            commit('login', true);
           } else {
             // eslint-disable-next-line
-            console.error.bind(console, 'cannot login');
+            console.error('Cannot Login');
           }
         });
         socket.emit('login', data);
       }
+    },
+  },
+  mutations: {
+    login(state, data) {
+      state.loggedIn = data;
     },
     openCloseLogin(state, open) {
       state.logInModal = open;
