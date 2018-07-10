@@ -19,7 +19,7 @@ export default {
   methods: {
     ...mapMutations(['openCloseLogin']),
     ...mapActions({
-      login: 'login'
+      login: 'login',
     }),
     close() {
       this.user = '';
