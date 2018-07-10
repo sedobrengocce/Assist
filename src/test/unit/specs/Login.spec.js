@@ -12,8 +12,10 @@ describe('Login.vue', () => {
     isOpenLoginModal: false,
   };
   const mutations = {
-    logInOut: sinon.stub(),
     openCloseLogin: sinon.stub(),
+  };
+  const actions = {
+    login: sinon.stub(),
   };
   let store = null;
   let wrapper = null;
@@ -25,9 +27,10 @@ describe('Login.vue', () => {
         },
       },
       mutations,
+      actions,
     });
     mutations.openCloseLogin.reset();
-    mutations.logInOut.reset();
+    actions.login.reset();
   });
   it('should not be visible if not opened', () => {
     wrapper = mount(Login, { store });
@@ -84,9 +87,9 @@ describe('Login.vue', () => {
     fakeState.isOpenLoginModal = true;
     wrapper = mount(Login, { store });
     // eslint-disable-next-line
-    expect(mutations.logInOut).not.to.be.calledOnce;
+    expect(actions.login).not.to.be.calledOnce;
     wrapper.find('.Button')[0].trigger('click');
     // eslint-disable-next-line
-    expect(mutations.logInOut).to.be.calledOnce;
+    expect(actions.login).to.be.calledOnce;
   });
 });

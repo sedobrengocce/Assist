@@ -12,8 +12,10 @@ describe('TitleBar.vue', () => {
     loggedIn: false,
   };
   const mutations = {
-    logInOut: sinon.stub(),
     openCloseLogin: sinon.stub(),
+  };
+  const actions = {
+    login: sinon.stub(),
   };
   let store = null;
   let wrapper = null;
@@ -25,6 +27,7 @@ describe('TitleBar.vue', () => {
         },
       },
       mutations,
+      actions,
     });
   });
   it('should render correct contents and log In', () => {
@@ -45,9 +48,9 @@ describe('TitleBar.vue', () => {
     const button = wrapper.find('.TitleButton');
     expect(button[0].text()).to.equal('Log Out');
     // eslint-disable-next-line
-    expect(mutations.logInOut).not.to.be.calledOnce;
+    expect(actions.login).not.to.be.calledOnce;
     wrapper.find('.SignInButton')[0].trigger('click');
     // eslint-disable-next-line
-    expect(mutations.logInOut).to.be.calledOnce;
+    expect(actions.login).to.be.calledOnce;
   });
 });
